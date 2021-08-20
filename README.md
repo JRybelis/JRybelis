@@ -1,9 +1,33 @@
-### Hi there 👋
+ 
+```cs
+Console.Writeline("Hello World!");
+```
 
-<!--
-**JRybelis/JRybelis** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```cs
+public class JRybelis : IGitHubUser
+{
+	public string Forename = 'Jokūbas';
+	public string Surname = 'Rybelis';
+	public string Field = "Web development";
+	public string PrimaryStack = ".Net 5";
+	public bool AvailableForWork = true;
+}
+```
+```cs
+public class Program
+{
+	public static void Main()
+	{
+		private List<Skill> _skills = new()
+		{
+			new Skill { Type="language", Name="C#"}
+		};
+	}
+}
+```
 
-Here are some ideas to get you started:
+WORK IN PROGRESS
+
 
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
@@ -13,4 +37,3 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
--->
